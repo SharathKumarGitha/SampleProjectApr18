@@ -11,10 +11,14 @@ public class SampleProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SampleProjectApplication.class, args);
+        
+        System.out.println("this is simple spring boot application");
     }
 
     @GetMapping("/hello")
     public String home() {
-        return "Hello Jenkins";
+        return "Hello Jenkins this is sharath kumar";
     }
+    
+    
 }
