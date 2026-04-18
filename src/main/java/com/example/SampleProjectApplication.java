@@ -26,5 +26,12 @@ public class SampleProjectApplication {
         return "Hello this is simple welcome message";
     }
     
+    @GetMapping("/qa")
+    public String environment() {
+        return "Hello this is qa environment";
+    }
+    
+    
+    
     
 }
