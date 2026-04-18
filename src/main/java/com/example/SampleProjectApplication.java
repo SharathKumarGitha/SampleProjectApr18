@@ -21,4 +21,10 @@ public class SampleProjectApplication {
     }
     
     
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "Hello Jenkins this is sharath kumar"
+    }
+    
+    
 }
