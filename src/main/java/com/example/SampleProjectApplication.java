@@ -31,7 +31,10 @@ public class SampleProjectApplication {
         return "Hello this is qa environment and you need to merge to master asap";
     }
     
-    
+    @GetMapping("/master")
+    public String doCode() {
+        return "Hello this is master environment changes ......";
+    }
     
     
 }
