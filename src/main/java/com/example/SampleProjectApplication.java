@@ -28,7 +28,7 @@ public class SampleProjectApplication {
     
     @GetMapping("/qa")
     public String environment() {
-        return "Hello this is qa environment";
+        return "Hello this is qa environment and you need to merge to master asap";
     }
     
     
