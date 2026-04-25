@@ -36,5 +36,11 @@ public class SampleProjectApplication {
         return "Hello this is master environment changes ......";
     }
     
+    @GetMapping("/qa-v2")
+    public String doCodeINQaEnv() {
+        return "Hello this is qa environment changes ......";
+    }
+    
+    
     
 }
